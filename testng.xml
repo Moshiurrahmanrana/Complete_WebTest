@@ -15,13 +15,18 @@
         </classes>
     </test>
     <test name="E-commerce portal purchase items">
-<!--        <groups>-->
-<!--            <run>-->
-<!--                <include name="purchase_product"/>-->
-<!--            </run>-->
-<!--        </groups>-->
+        <groups>
+            <run>
+                <include name="purchase_product"/>
+            </run>
+        </groups>
         <classes>
             <class name="TestRunner.PurchaseTestRunner"/>
+        </classes>
+    </test>
+    <test name="E-commerce portal Dashboard">
+        <classes>
+            <class name="TestRunner.DashboardTestRunner"/>
         </classes>
     </test>
 </suite>
