@@ -1,0 +1,126 @@
+{
+  "uid" : "d2cd437b5fa12728",
+  "name" : "Check cart",
+  "fullName" : "TestRunner.DashboardTestRunner.checkHasCart",
+  "historyId" : "c06da1ced51450d16b3d26d02bb132de",
+  "time" : {
+    "start" : 1631958177861,
+    "stop" : 1631958178070,
+    "duration" : 209
+  },
+  "description" : "User can view cart",
+  "descriptionHtml" : "<p>User can view cart</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631958142131,
+      "stop" : 1631958146039,
+      "duration" : 3908
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "doLogin",
+    "time" : {
+      "start" : 1631958146042,
+      "stop" : 1631958177715,
+      "duration" : 31673
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1631958178177,
+      "stop" : 1631958178177,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Logout",
+    "time" : {
+      "start" : 1631958178210,
+      "stop" : 1631958178410,
+      "duration" : 200
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner.DashboardTestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner.DashboardTestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkHasCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Complete WebTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner.DashboardTestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-29KBN6H"
+  }, {
+    "name" : "thread",
+    "value" : "2132@DESKTOP-29KBN6H.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2cd437b5fa12728.json",
+  "parameterValues" : [ ]
+}

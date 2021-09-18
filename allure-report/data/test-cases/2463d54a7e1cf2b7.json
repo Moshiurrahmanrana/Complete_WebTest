@@ -1,0 +1,120 @@
+{
+  "uid" : "2463d54a7e1cf2b7",
+  "name" : "Signup successful",
+  "fullName" : "TestRunner.SignupTestRunner.doSignup",
+  "historyId" : "2e608503d7891be8427e5949b6667bdb",
+  "time" : {
+    "start" : 1631960584483,
+    "stop" : 1631960657722,
+    "duration" : 73239
+  },
+  "description" : "Signup successful",
+  "descriptionHtml" : "<p>Signup successful</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1631960580873,
+      "stop" : 1631960584225,
+      "duration" : 3352
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "screenShot",
+    "time" : {
+      "start" : 1631960657836,
+      "stop" : 1631960657837,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Logout",
+    "time" : {
+      "start" : 1631960657857,
+      "stop" : 1631960658228,
+      "duration" : 371
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner.SignupTestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner.SignupTestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "doSignup"
+  }, {
+    "name" : "parentSuite",
+    "value" : "E-commerce portal automation"
+  }, {
+    "name" : "suite",
+    "value" : "E-commerce portal signup"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner.SignupTestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-29KBN6H"
+  }, {
+    "name" : "thread",
+    "value" : "7940@DESKTOP-29KBN6H.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c436bbd35dd7285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631925105769,
+        "stop" : 1631925131304,
+        "duration" : 25535
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2463d54a7e1cf2b7.json",
+  "parameterValues" : [ ]
+}

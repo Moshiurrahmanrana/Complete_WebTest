@@ -39,24 +39,10 @@ public class PurchaseItem {
     WebElement btnConfirm;
     @FindBy(xpath = "//strong[contains(text(),'Your order on My Store is complete.')]")
     WebElement lblConfirmation;
-    @FindBy(xpath = "//span[contains(text(),'Order history and details')]")
-    WebElement btnOrderHistory;
 
     public PurchaseItem(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-    }
-    public boolean checkHasCart(){
-        wait=new WebDriverWait(driver,30);
-        boolean status=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#header > div:nth-child(3) > div > div > div:nth-child(3) > div"))).isDisplayed();
-        return status;
-    }
-    public String orderHistory(){
-        btnOrderHistory.click();
-        wait=new WebDriverWait(driver,30);
-        String headerText=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h1[contains(text(),'Order history')]"))).getText();
-        return headerText;
-
     }
     public String checkSearch() throws InterruptedException {
         txtSearch.sendKeys("Dress");

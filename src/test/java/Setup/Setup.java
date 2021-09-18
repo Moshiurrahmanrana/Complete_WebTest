@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Setup {
     public WebDriver driver;
-    @BeforeTest(groups = {"login","purchase_product"})
+    @BeforeTest
     public void setUp() throws IOException {
         ChromeOptions ops = new ChromeOptions();
         ops.addArguments("--headed");
@@ -38,7 +38,7 @@ public class Setup {
 
     }
 
-    @AfterTest(groups = {"login","purchase_product"})
+    @AfterTest
     public void Logout() {
         driver.close();
 
